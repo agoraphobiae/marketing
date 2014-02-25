@@ -30,7 +30,7 @@
 }
 
 #title {
-    font-size: 2em;
+    font-size: 2.0em;
     font-family: 'MuseoSans300', sans-serif;
 }
 
@@ -39,11 +39,26 @@
     font-family: 'MuseoSans300', sans-serif;
 }
 
+h1 {
+    font-size: 1.8em;
+}
+
 input {
     text-align: center;
     width: 300px;
     font-size: 2em;
     border: 1px solid #DDD;
+}
+
+/* shapes */
+.circle {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    top: -10px;
 }
 
 body {
