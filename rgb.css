@@ -18,7 +18,7 @@
 
 /* styling */
 #content {
-    margin: 2em auto;
+    margin: 1em auto;
     text-align: center;
     width: 65%;
     color: white;
@@ -37,10 +37,33 @@
 #subtitle {
     font-size: 1.25em;
     font-family: 'MuseoSans300', sans-serif;
+    margin-bottom: 0.5em;
 }
 
 h1 {
     font-size: 1.8em;
+}
+
+.thirdwrap {
+    display: table;
+}
+
+.thirdcol {
+    display: table-cell; /* doesnt work? */
+    width: 27%;
+    padding: 3%;
+    height: 500px;
+    margin-bottom: auto;
+}
+
+img.third {
+    width: 27%;
+    margin: 3%;
+    display: inline-block;
+}
+
+.full {
+    width: 100%;
 }
 
 input {
@@ -50,7 +73,7 @@ input {
     border: 1px solid #DDD;
 }
 
-/* shapes */
+/* nontext and shapes */
 .circle {
     border-radius: 50%;
     width: 10px;
@@ -59,6 +82,10 @@ input {
     display: inline-block;
     position: relative;
     top: -10px;
+}
+
+hr {
+    border: 3px solid white;
 }
 
 body {
