@@ -18,33 +18,88 @@
 
 /* styling */
 #content {
-    margin: 1em auto;
+    margin: 0.5em auto;
     text-align: center;
     width: 65%;
     color: white;
-    font-size: 1.5em;
+    font-size: 1.25em;
+    height: 100%;
+}
+
+#splash {
+    height: 100%;
+    margin: 0.5em auto;
+    text-align: center;
+    width: 65%;
+    color: white;
+    font-size: 1.25em;
+}
+
+#splashbg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    margin: -50px; /* get the overflow hidden working */
+    padding: 50px;
+
+    background-image: url("i/sutardjadai.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    z-index: 2;
 }
 
 #rgblogo {
-
+    margin: 1em;
 }
 
 #title {
-    font-size: 2.0em;
+    font-size: 1.75em;
     font-family: 'MuseoSans300', sans-serif;
 }
 
 #subtitle {
-    font-size: 1.25em;
+    font-size: 1.5em;
     font-family: 'MuseoSans300', sans-serif;
     margin-bottom: 0.5em;
+}
+
+.sidelined {
+    line-height: 0.1em;
+    text-align: center;
+    margin: 1em auto;
+    margin-top: 2em;
+}
+.sidelined span {
+    display: inline-block;
+    position: relative;
+}
+.sidelined span:before,
+.sidelined span:after {
+    content: "";
+    position: absolute;
+    height: 0;
+    border: 1px solid white;
+    top: 0;
+    width: 320%;
+}
+.sidelined span:before {
+    right: 100%;
+    margin-right: 15px;
+}
+.sidelined span:after {
+    left: 100%;
+    margin-left: 15px;
 }
 
 h1 {
     font-size: 1.8em;
 }
 
-.thirdwrap {
+.colwrap {
     display: table;
 }
 
@@ -61,6 +116,18 @@ img.third {
     width: 27%;
     margin: 3%;
     display: inline-block;
+}
+
+.quadcol {
+    display: table-cell;
+    width: 20%;
+    padding: 0 3%;
+    padding-left: 1%;
+    font-size: 1.5em;
+}
+
+.num {
+    font-size: 2.5em;
 }
 
 .full {
@@ -93,4 +160,9 @@ body {
     font-family: 'MuseoSans100', sans-serif;
     /*background-color: #22B573;*/
     background-color: #0592BF;
+}
+
+/* allow full page */
+body, html {
+    height: 100%;
 }
