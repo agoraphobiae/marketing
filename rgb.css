@@ -54,7 +54,7 @@
     margin: 0 auto; 
     text-align: center;
     width: 65%;
-    max-width: 750px;
+    max-width: 850px;
     color: white;
     font-size: 1.25em;
     height: 100%;
@@ -103,15 +103,17 @@
 }
 
 #rgblogo {
+    height: 80%;
     margin: 3em;
 }
 #rgblogo img {
-    width: 40%;
+    height: 75%;
 }
 
 #title {
     font-size: 1.75em;
     font-family: 'MuseoSans300', sans-serif;
+    margin-top: 1em;
 }
 #title img {
     width: 100%;
@@ -152,6 +154,10 @@
 }
 #splashbar a.active {
     color: #0092BF;
+}
+#splashcol {
+    max-width: 950px; /* wider than center */
+    margin: 0 auto;
 }
 
 .sidelined {
