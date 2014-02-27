@@ -105,10 +105,16 @@
 #rgblogo {
     margin: 3em;
 }
+#rgblogo img {
+    width: 40%;
+}
 
 #title {
     font-size: 1.75em;
     font-family: 'MuseoSans300', sans-serif;
+}
+#title img {
+    width: 100%;
 }
 
 #subtitle {
@@ -121,9 +127,10 @@
     box-shadow: 0px 0px 5px #CCC;
     background-color: white;
     height: 12%;
+    max-height: 90px;
     width: 100%;
     position: absolute;
-    top: 88%;
+    bottom: 0;
     z-index: 10;
 
     line-height: 70px;
@@ -141,6 +148,7 @@
 #splashbar a {
     text-decoration: none;
     color: inherit;
+    font-size: 1.5em;
 }
 #splashbar a.active {
     color: #0092BF;
@@ -195,20 +203,22 @@ h1 {
 }
 
 .thirdcol {
-    display: table-cell; /* doesnt work? */
+    display: table-cell;
     width: 27%;
     padding: 3%;
     margin-bottom: auto;
     font-size: 0.9em;
     height: 200px;
+    vertical-align: middle;
 }
 .thirdcol2 {
-    display: table-cell; /* doesnt work? */
+    display: table-cell;
     width: 54%;
     padding: 3%;
     margin-bottom: auto;
     font-size: 0.9em;
     height: 100px;
+    vertical-align: middle;
 }
 
 img.third {
@@ -220,9 +230,12 @@ img.third {
 .quadcol {
     display: table-cell;
     width: 20%;
-    padding: 0 3%;
-    font-size: 1.5em;
+    padding: 0.1% 4%;
+    margin-bottom: auto;
+    font-size: 1.25em;
+    height: 75px;
     text-align: center;
+    vertical-align: middle;
 }
 
 .num {
