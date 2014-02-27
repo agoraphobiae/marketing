@@ -55,6 +55,7 @@
     margin: 0 17.5%; 
     text-align: center;
     width: 65%;
+    max-width: 750px;
     color: white;
     font-size: 1.25em;
     height: 100%;
