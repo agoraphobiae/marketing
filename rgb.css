@@ -31,6 +31,10 @@
     background-color: #333;
     padding: 4% 0;
 }
+#time a {
+    color: #0092BF;
+    font-family: 'MuseoSans300', sans-serif;
+}
 
 #red {
     background-color: #E06161;
@@ -151,7 +155,7 @@
     left: 0;
 }
 
-#splashbar a {
+a {
     text-decoration: none;
     color: inherit;
     font-size: 1.5em;
