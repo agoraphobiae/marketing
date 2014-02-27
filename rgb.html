@@ -3,32 +3,67 @@
 <head>
   <title>RGB</title>
   <link rel="stylesheet" href="rgb.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script type="text/javascript" src="js/splash.js"></script>
 </head>
 <body>
   <div id="splash">
-    <div id="splashbg"></div>
-    <div id="rgblogo"><img src="./i/rgblogo.png" width="300px;"></div>
-    <div id="title">Redefine Graphic Brilliance</div>
-    <div id="subtitle">Welcome to your toolkit.</div>
-    <div class="sidelined"><span>STARTS IN</span></div>
-    <div class="colwrap full">
-      <div class="quadcol"><div class="num">12</div>days</div>
-      <div class="quadcol"><div class="num">13</div>hours</div>
-      <div class="quadcol"><div class="num">04</div>minutes</div>
-      <div class="quadcol"><div class="num">59</div>seconds</div>
+    <div id="splashbg">
+      <div id="bgfade"></div>
+    </div>
+    <div class="center">
+      <div id="rgblogo"><img src="./i/rgblogo.png" width="250px;"></div>
+      <div id="title">
+        <!-- <span class="red">Redefine</span>
+        <span class="green">Graphic</span>
+        <span class="blue">Brilliance</span> -->
+        <img src="i/rgbnameplate.png">
+      </div>
+      <div id="subtitle">Welcome to your toolkit.</div>
+      <!-- <div class="sidelined"><span>STARTS IN</span></div>
+      <div class="colwrap full">
+        <div class="quadcol"><div class="num">12</div>days</div>
+        <div class="quadcol"><div class="num">13</div>hours</div>
+        <div class="quadcol"><div class="num">04</div>minutes</div>
+        <div class="quadcol"><div class="num">59</div>seconds</div>
+      </div> -->
     </div>
   </div>
-  <div id="content">
-    <br>
-    <!-- CHANGEME youtube copypasta -->
-    <iframe width="700" height="394" src="http://www.youtube.com/embed/QX5XKFn7Ngo" frameborder="0" allowfullscreen></iframe>
-    <p>Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit non mi porta gravida at eget metus. Nulla vitae elit libero, a pharetra augue. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-    <br>
-    <h1>Saturday, March 8, 2014  <div class="circle"></div>  10AM - 6PM</h1>
-    <h2>Sutardja Dai Hall at UC Berkeley</h2>
-    <br>
-    <h1>#pickyourcolor</h1>
-    <div class="colwrap">
+  <div id="navspace"></div>
+  <div id="splashbar">
+    <div class="colwrap full">
+      <div class="quadcol"><a id="videoa" href="#video">VIDEO</a></div>
+      <div class="quadcol"><a id="abouta" href="#about">ABOUT</a></div>
+      <div class="quadcol"><a id="learna" href="#learn">LEARN</a></div>
+      <div class="quadcol"><a id="sponsorsa" href="#sponsors">SPONSORS</a></div>
+    </div>
+  </div>
+  <div class="content">
+    <div id="video">
+      <div class="center">
+        <br>
+        <!-- CHANGEME youtube copypasta -->
+        <iframe width="700" height="394" src="http://www.youtube.com/embed/QX5XKFn7Ngo" frameborder="0" allowfullscreen></iframe>
+        <p>Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit non mi porta gravida at eget metus. Nulla vitae elit libero, a pharetra augue. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+        <br>
+      </div>
+    </div>
+
+    <div id="about">
+      <div id="time">
+        <div class="center">
+          <h1>Saturday, March 8, 2014  <div class="circle"></div>  10AM - 6PM</h1>
+          <h2>Sutardja Dai Hall at UC Berkeley</h2>
+          <br>
+          <hr>
+          <br>
+          <h1>#pickyourcolor</h1>
+          <p>Mission statement. Extraordinary claims require extraordinary evidence hearts of the stars corpus callosum permanence of the stars, are creatures of the cosmos the only home we've ever known. Rich in mystery. At the edge of forever. Globular star cluster? Are creatures of the cosmos cosmic ocean hundreds of thousands white dwarf! The carbon in our apple pies.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="colwrap">
       <div class="thirdcol"><img src="i/camera.png" class="full">
         <p>You should really try to photo sometime. Etiam porta sem malesuada magna mollis euismod. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
       </div>
@@ -38,15 +73,40 @@
       <div class="thirdcol"><img src="i/t.png" class="full">
         <p>It's a huge T, for typography, the acclaimed children's book for aspiring toddlers and young designers. Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed consectetur.</p>
       </div>
+    </div> -->
+
+    <div id="learn">
+      <div id="red">
+        <div class="center">
+          <div class="colwrap">
+            <div class="thirdcol"><img src="i/camera.png" class="full"></div>
+            <div class="thirdcol2"><p>You should really try to photo sometime. Etiam porta sem malesuada magna mollis euismod. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p></div>
+          </div>
+        </div>
+      </div>
+      <div id="green">
+        <div class="center">
+          <div class="colwrap">
+            <div class="thirdcol2"><p>This is the crop tool, I'm not sure why it's the symbol for design but it is! Aenean lacinia bibendum nulla sed consectetur.</p></div>
+            <div class="thirdcol"><img src="i/crop.png" class="full"></div>
+          </div>
+        </div>
+      </div>
     </div>
-    <br>
-    <hr>
-    <br>
-    <h1>Sponsored by</h1>
-    <img src="i/frog.png" class="third"><img src="i/stripe.png" class="third"><img src="i/fontshop.png" class="third">
-    <form>
-      <input type="text" name="accesscode">
-    </form>
+
+    <div id="sponsors">
+      <div class="center">
+        <h1>Sponsored by</h1>
+        <img src="i/frog.png" class="third"><img src="i/stripe.png" class="third"><img src="i/fontshop.png" class="third">
+        <!-- <form>
+          <input type="text" name="accesscode">
+        </form> -->
+        <br>
+        <hr>
+        <br>
+        <p><div class="nameplate">An<a target="_blank" href="http://innod.net"><img src="i/innodlogo.png" id="innodlogo"></a>event.</div></p>
+      </div>
+    </div>
   </div>
 </body>
 </html>
