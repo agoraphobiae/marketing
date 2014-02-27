@@ -245,6 +245,9 @@ img.third {
 .full {
     width: 100%;
 }
+.tall {
+    height: 100%;
+}
 
 input {
     text-align: center;
