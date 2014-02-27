@@ -8,7 +8,7 @@ $(document).ready( function() {
 		event.preventDefault();
 
 		$('html, body').animate({
-			scrollTop: $("#video").offset().top - $('#splashbar').height()
+			scrollTop: $("#video").offset().top - $('#splashbar').height() + 1
 		}, 600);
 	});
 
@@ -16,7 +16,7 @@ $(document).ready( function() {
 		event.preventDefault();
 
 		$('html, body').animate({
-			scrollTop: $("#about").offset().top - $('#splashbar').height()
+			scrollTop: $("#about").offset().top - $('#splashbar').height() + 1
 		}, 600);
 	});
 
@@ -24,7 +24,7 @@ $(document).ready( function() {
 		event.preventDefault();
 
 		$('html, body').animate({
-			scrollTop: $("#learn").offset().top - $('#splashbar').height()
+			scrollTop: $("#learn").offset().top - $('#splashbar').height() + 1
 		}, 600);
 	});
 
@@ -32,7 +32,7 @@ $(document).ready( function() {
 		event.preventDefault();
 
 		$('html, body').animate({
-			scrollTop: $("#sponsors").offset().top - $('#splashbar').height()
+			scrollTop: $("#sponsors").offset().top - $('#splashbar').height() + 1
 		}, 600);
 	});
 });
