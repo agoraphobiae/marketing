@@ -51,8 +51,7 @@
 }
 
 .center {
-    /* manually entered centered margin amount */
-    margin: 0 17.5%; 
+    margin: 0 auto; 
     text-align: center;
     width: 65%;
     max-width: 750px;
