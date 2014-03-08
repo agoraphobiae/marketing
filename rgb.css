@@ -46,6 +46,16 @@
     padding: 3% 0;
 }
 
+#blue {
+    background-color: #0092BF;
+    padding: 3% 0;
+}
+
+#white {
+    /*background-color: #333;*/
+    background-color: white;
+}
+
 #sponsors {
     padding: 3% 0;
 }
@@ -127,6 +137,19 @@
     height: 75%;
 }
 
+#toolkit_rgblogo {
+    height: 50%;
+    margin: 1.5em 3em;
+}
+#toolkit_rgblogo img {
+    height: 55%;
+}
+#toolkit_info {
+    color: #555;
+    margin: 1em;
+    line-height: 1.3em;
+}
+
 #title {
     font-size: 1.75em;
     font-family: 'MuseoSans300', sans-serif;
@@ -136,10 +159,32 @@
     width: 100%;
 }
 
+#toolkit_title {
+    font-size: 2em;
+    font-family: 'MuseoSans300', sans-serif;
+    margin-top: 0.5em;
+    color: #555;
+}
+
 #subtitle {
     font-size: 1.75em;
     font-family: 'MuseoSans300', sans-serif;
     margin-bottom: 0.5em;
+}
+
+.buttonwrap {
+    width: 275px;
+    height: 100px;
+    margin: 30px auto;
+    font-family: 'Montserrat';
+}
+.button {
+    color: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    background-color: #0092BF;
+    line-height: 100px;
 }
 
 #splashbar {
@@ -168,6 +213,9 @@ a {
     text-decoration: none;
     color: inherit;
     font-size: 1.5em;
+}
+a.inline {
+    font-size: 1em;
 }
 #splashbar a.active {
     color: #0092BF;
@@ -310,6 +358,6 @@ body {
 
 /* allow full page */
 body, html {
-    height: 100%;
     margin: 0;
+    height: 100%;
 }
